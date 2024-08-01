@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Essentials</title>
+    <link rel="stylesheet" href=".css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav"><a href="index.html">Introducción</a></nav>
+    </header>
+    <main class="container">
+        <section class="module">
+            <h2 class="subtitle">Objetivos</h2>
+            <p class="text">●Conocer los fundamentos de la ciberseguridad general.●Comprender la ciberseguridad en el contexto de las organizaciones.●Conocer los aspectos de seguridad en redes y sistemas.●Conocer los temas principales que aborda la seguridaddefensiva.●Conocer los principales procesos de evaluación de seguridad ofensiva.●Adquirir herramientas para potenciar las tareas profesionales</p>
+            <p class="text">●Introducción●Criptografía●Gestión de Identidades y Accesos●Autenticación
+            </p>
+            <div class="div"><img src="definiciones.png" alt="">
+                <img src="principios.png" alt="">
+                <img src="SI.png" alt="">
+                <img src="orga.png" alt="">
+                <img src="areas.png" alt="">
+                <img src="otras.png" alt="">
+                <img src="gestion.png" alt="">
+            </div>
+
+            <p class="text">Criptografía</p>
+            <div class="div">
+                <img src="conceptos.png" alt="">
+                <img src="conceptos2.png" alt="">
+                <img src="conceptos3.png" alt="">
+                <img src="algo.png" alt="">
+                <img src="algotipos.png" alt="">
+                <img src="proto.png" alt="">
+                <img src="prote.png" alt="">
+            </div>
+            <p class="text">Una PKI proporciona una infraestructuragestionada para <br>
+                ○Creación de certificados <br>
+                ○Mantenimiento de los certificados <br>
+                ○Revocación de certificados <br>
+                Utiliza una jerarquía de sistemas de infraestructura para crear certificados digitales. Los certificados digitales contienen la clavepública
+                Firma</p>
+            <p class="text">Esteganografia: <br>
+                El Arte de la Ocultación de datos ("escritura cubierta")Los archivos están ocultando informaciónadicional (secreta o sensible)Puede esconderse en una variedad de formatos○Imágenes (bmp, png, gif, jpg)○Documentos de Word○Archivos de texto</p>
+            <p class="text">La criptografía proporciona confidencialidad pero no secretoEn la esteganografía es posible que no se detecte que se está enviando un mensajeLa verdadera intención está oculta
+            </p>
+            <p class="text">Identidad Digital <br>
+                Referencia a una entidad  y engloba en esta todas las acciones realizadas en la red. Es clave para definir el acceso y pueden cambiar con el tiempo. Confiar en el enlace entre una identidad real y una digital require VALIDACIÓN
+            </p>
+            <div class="div">
+                <img src="respo.png" alt="">
+            </div>
+            <p class="text">Autenticación y Autorización: La identidad es lo que uno dice ser. La Autorización determina a qué tiene acceso o puede hacer alguien después de la Autenticación. La Autenticación es la validación de la identidad frente a un sistema
+            </p>
+            <p class="text">Estandares SAML y 0Auth2 <br> Oauth2 estandar para facilitar la autorización. Permite a un usuario del sitio A compartir su información con el sitio B●Lo hace sin compartir toda su identidad, protegiendo sus credencialesSAML es un estándar orientado a SSO, integra el proceso de Autenticación.●Casos de Uso - Acceso a aplicaciones desde un portal
+            </p>
+            <p class="text">Simple Sign-On SSO:
+                Procedimiento para acceder a varios sistemas con una instancia de autenticación+ Reduce el uso de múltiples contraseñas+ Permite administración centralizada y reduce tiempos de soporte- Punto de falla único- Complejidad de implementación
+
+            </p>
+            <div class="div">
+                <img src="iden.png" alt="">
+            </div>
+            <p class="text">Control y administración: El ABM debe realizarse en todos los sistemasNuevo Usuario nuevo■Alta en el sistema central 🡺 reglas para alta en ERP, intranet y VPNBaja Usuario■Baja en el sistema central 🡺 reglas para baja en otros sistemasCambio de puesto■Baja en algún sistema y alta en otros
+            </p>
+            <p class="text">Gestión de Acceso privilegiado (PAM): Es un término para designar la administración para las identidades que requieran accesos especiales por encima de los usuarios “estándares”Hace énfasis en PoLP (Principio del Mínimo Privilegio), asignar los accesos mínimos para desempeñar una función</p>
+            <div class="div">
+                <img src="pam.png" alt="">
+                <p class="text">Gestionar las cuentas con privilegios (Credenciales, Configuraciones)Supervisar actividad (Sesiones, acciones)Aislar accesos con privilegios y exigir MFARotar contraseñas después de su usoLimitar los “Administradores Locales”Gestionar y Rotar Claves SSHNo utilizar accesos compartidosRealizar ejercicios de RedTeam
+                </p>
+                <img src="auten.png" alt="">
+                <img src="gestionpass.png" alt="">
+            </div>
+
+            <p class="text">Políticas y requisitos de contraseñas: Obligatorio su usoIntervalo de cambio establecidoLas cuentas se bloqueanUna letra, un número y un carácterespecialNo reutilizar las N contraseñas anteriores
+            </p>
+            <p class="text">Atauqes a las contraseñas
+                Ataque del diccionarioFuerza brutaAtaque HíbridoAtaque RainbowtablesSniffingIngenieria SocialShoulder Surfing
+            </p>
+            <p class="text">Ejemplo de un ataque de contraseñas1.Encontrar una identificación de usuario válida2.Encuentre el algoritmo de encriptación utilizado3.Obtener la contraseña cifrada4.Crear una lista de posibles contraseñas5.Cifrar cada contraseña de la lista6.Determinar si hay una coincidencia</p>
+            <p class="text">Se demuestra que la entidad es la identidadque dice ser a traves de :•Algo que sabe•Algo que tiene•Algo que es•Algún lugar en el que esté (*)•Como se comporte
+            </p>
+            <img src="autenadap.png" alt="">
+            <img src="autenpass.png" alt="">
+            <p class="text"></p>
+            <p class="text"></p>
+            <p class="text"></p>
+        </section>
+    </main>
+
+</body>
+</html>
